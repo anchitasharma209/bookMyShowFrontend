@@ -17,7 +17,7 @@ const LastBookingData = (props) => {
     try {
       setLoader(true)
       const res = await fetch(
-         `http://localhost:8080/api/booking`,
+         `https://bookmyshow-rhnk.onrender.com/api/booking`,
         {
           method: "GET",
         }
