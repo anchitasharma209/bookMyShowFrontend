@@ -25,7 +25,7 @@ const BsState = (props) => {
     try {
         
         const res = await fetch(
-          "https://bookmyshowbackend-iz0u.onrender.com/api/booking",
+          "https://myshowbackend.onrender.com/api/booking",
           {
             method: "POST",
             headers: {
